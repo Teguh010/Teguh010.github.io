@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/Teguh010.github.io /"
+  publicPath: process.env.NODE_ENV === "production" ? "/teguh-vue-tic-tac-toe/" : "/"
 };
